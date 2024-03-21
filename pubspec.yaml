@@ -1,0 +1,19 @@
+name: flutter_tailwind_colors_plus
+description: A Flutter package providing Tailwind-inspired color classes.
+version: 1.0.0
+homepage: https://github.com/nimahedayati/flutter_tailwind_colors_plus
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:

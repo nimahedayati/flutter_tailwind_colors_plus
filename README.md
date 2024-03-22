@@ -1,23 +1,23 @@
-# flutter_tailwind_colors_plus
+# flutter_tailwind_theme
 
-A Flutter package providing Tailwind-inspired color classes.
+A Flutter package providing Tailwind-inspired classes.
 
 ## Installation
 
-To use this package, add `flutter_tailwind_colors_plus` as a [dependency in your pubspec.yaml file](https://flutter.dev/docs/development/packages-and-plugins/using-packages).
+To use this package, add `flutter_tailwind_theme` as a [dependency in your pubspec.yaml file](https://flutter.dev/docs/development/packages-and-plugins/using-packages).
 
 ```yaml
 dependencies:
   flutter:
     sdk: flutter
-  flutter_tailwind_colors_plus: ^1.0.0
+  flutter_tailwind_theme: ^1.0.1
 ```
 
 ## Usage
 
 ```dart
 import 'package:flutter/material.dart';
-import 'package:flutter_tailwind_colors_plus/flutter_tailwind_colors_plus.dart';
+import 'package:flutter_tailwind_theme/flutter_tailwind_theme.dart';
 
 void main() {
   runApp(MyApp());

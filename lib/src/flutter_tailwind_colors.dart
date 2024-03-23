@@ -43,41 +43,60 @@ class TailwindColor extends ColorSwatch<int> {
   Color get shade950 => this[950]!;
 }
 
+/// A utility class for defining common colors.
 abstract final class TColors {
+  /// Transparent color.
   static const Color transparent = Color(0x00000000);
 
+  /// Black color.
   static const Color black = Color(0xFF000000);
 
+  /// Black color with 87% opacity.
   static const Color black87 = Color(0xDD000000);
 
+  /// Black color with 54% opacity.
   static const Color black54 = Color(0x8A000000);
 
+  /// Black color with 45% opacity.
   static const Color black45 = Color(0x73000000);
 
+  /// Black color with 38% opacity.
   static const Color black38 = Color(0x61000000);
 
+  /// Black color with 26% opacity.
   static const Color black26 = Color(0x42000000);
 
+  /// Black color with 12% opacity.
   static const Color black12 = Color(0x1F000000);
 
+  /// White color.
   static const Color white = Color(0xFFFFFFFF);
 
+  /// White color with 70% opacity.
   static const Color white70 = Color(0xB3FFFFFF);
 
+  /// White color with 60% opacity.
   static const Color white60 = Color(0x99FFFFFF);
 
+  /// White color with 54% opacity.
   static const Color white54 = Color(0x8AFFFFFF);
 
+  /// White color with 38% opacity.
   static const Color white38 = Color(0x62FFFFFF);
 
+  /// White color with 30% opacity.
   static const Color white30 = Color(0x4DFFFFFF);
 
+  /// White color with 24% opacity.
   static const Color white24 = Color(0x3DFFFFFF);
 
+  /// White color with 12% opacity.
   static const Color white12 = Color(0x1FFFFFFF);
 
+  /// White color with 10% opacity.
   static const Color white10 = Color(0x1AFFFFFF);
 
+  /// Slate color.
   static const TailwindColor slate = TailwindColor(
     _slatePrimaryValue,
     <int, Color>{
@@ -96,6 +115,7 @@ abstract final class TColors {
   );
   static const int _slatePrimaryValue = 0xFF64748b;
 
+  /// Gray color.
   static const TailwindColor gray = TailwindColor(
     _grayPrimaryValue,
     <int, Color>{
@@ -114,6 +134,7 @@ abstract final class TColors {
   );
   static const int _grayPrimaryValue = 0xFF4b5563;
 
+  /// Zinc color.
   static const TailwindColor zinc = TailwindColor(
     _zincPrimaryValue,
     <int, Color>{
@@ -132,6 +153,7 @@ abstract final class TColors {
   );
   static const int _zincPrimaryValue = 0xFF71717a;
 
+  /// Neutral color.
   static const TailwindColor neutral = TailwindColor(
     _neutralPrimaryValue,
     <int, Color>{
@@ -150,6 +172,7 @@ abstract final class TColors {
   );
   static const int _neutralPrimaryValue = 0xFF737373;
 
+  /// Stone color.
   static const TailwindColor stone = TailwindColor(
     _stonePrimaryValue,
     <int, Color>{
@@ -168,6 +191,7 @@ abstract final class TColors {
   );
   static const int _stonePrimaryValue = 0xFF78716c;
 
+  /// Red color.
   static const TailwindColor red = TailwindColor(
     _redPrimaryValue,
     <int, Color>{
@@ -186,6 +210,7 @@ abstract final class TColors {
   );
   static const int _redPrimaryValue = 0xFFef4444;
 
+  /// Orange color.
   static const TailwindColor orange = TailwindColor(
     _orangePrimaryValue,
     <int, Color>{
@@ -204,6 +229,7 @@ abstract final class TColors {
   );
   static const int _orangePrimaryValue = 0xFFf97316;
 
+  /// Amber color.
   static const TailwindColor amber = TailwindColor(
     _amberPrimaryValue,
     <int, Color>{
@@ -222,6 +248,7 @@ abstract final class TColors {
   );
   static const int _amberPrimaryValue = 0xFFf59e0b;
 
+  /// Yellow color.
   static const TailwindColor yellow = TailwindColor(
     _yellowPrimaryValue,
     <int, Color>{
@@ -240,6 +267,7 @@ abstract final class TColors {
   );
   static const int _yellowPrimaryValue = 0xFFeab308;
 
+  /// Lime color.
   static const TailwindColor lime = TailwindColor(
     _limePrimaryValue,
     <int, Color>{
@@ -258,6 +286,7 @@ abstract final class TColors {
   );
   static const int _limePrimaryValue = 0xFF84cc16;
 
+  /// Green color.
   static const TailwindColor green = TailwindColor(
     _greenPrimaryValue,
     <int, Color>{
@@ -276,6 +305,7 @@ abstract final class TColors {
   );
   static const int _greenPrimaryValue = 0xFF22c55e;
 
+  /// Emerald color.
   static const TailwindColor emerald = TailwindColor(
     _emeraldPrimaryValue,
     <int, Color>{
@@ -294,6 +324,7 @@ abstract final class TColors {
   );
   static const int _emeraldPrimaryValue = 0xFF10b981;
 
+  /// Teal color.
   static const TailwindColor teal = TailwindColor(
     _tealPrimaryValue,
     <int, Color>{
@@ -312,6 +343,7 @@ abstract final class TColors {
   );
   static const int _tealPrimaryValue = 0xFF14b8a6;
 
+  /// Cyan color.
   static const TailwindColor cyan = TailwindColor(
     _cyanPrimaryValue,
     <int, Color>{
@@ -330,6 +362,7 @@ abstract final class TColors {
   );
   static const int _cyanPrimaryValue = 0xFF06b6d4;
 
+  /// Sky color.
   static const TailwindColor sky = TailwindColor(
     _skyPrimaryValue,
     <int, Color>{
@@ -348,6 +381,7 @@ abstract final class TColors {
   );
   static const int _skyPrimaryValue = 0xFF0ea5e9;
 
+  /// Blue color.
   static const TailwindColor blue = TailwindColor(
     _bluePrimaryValue,
     <int, Color>{
@@ -366,6 +400,7 @@ abstract final class TColors {
   );
   static const int _bluePrimaryValue = 0xFF3b82f6;
 
+  /// Indigo color.
   static const TailwindColor indigo = TailwindColor(
     _indigoPrimaryValue,
     <int, Color>{
@@ -384,6 +419,7 @@ abstract final class TColors {
   );
   static const int _indigoPrimaryValue = 0xFF6366f1;
 
+  /// Violet color.
   static const TailwindColor violet = TailwindColor(
     _violetPrimaryValue,
     <int, Color>{
@@ -402,6 +438,7 @@ abstract final class TColors {
   );
   static const int _violetPrimaryValue = 0xFF8b5cf6;
 
+  /// Purple color.
   static const TailwindColor purple = TailwindColor(
     _purplePrimaryValue,
     <int, Color>{
@@ -420,6 +457,7 @@ abstract final class TColors {
   );
   static const int _purplePrimaryValue = 0xFFa855f7;
 
+  /// Fuchsia color.
   static const TailwindColor fuchsia = TailwindColor(
     _fuchsiaPrimaryValue,
     <int, Color>{
@@ -438,6 +476,7 @@ abstract final class TColors {
   );
   static const int _fuchsiaPrimaryValue = 0xFFd946ef;
 
+  /// Pink color.
   static const TailwindColor pink = TailwindColor(
     _pinkPrimaryValue,
     <int, Color>{
@@ -456,6 +495,7 @@ abstract final class TColors {
   );
   static const int _pinkPrimaryValue = 0xFFec4899;
 
+  /// Rose color.
   static const TailwindColor rose = TailwindColor(
     _rosePrimaryValue,
     <int, Color>{

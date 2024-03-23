@@ -1,6 +1,6 @@
-# flutter_tailwind_theme
+# Flutter Tailwind Theme
 
-A Flutter package providing Tailwind-inspired classes.
+A Flutter package providing a comprehensive set of pre-defined Tailwind colors, fonts, sizes and ... for rapid UI development.
 
 ## Installation
 
@@ -10,7 +10,7 @@ To use this package, add `flutter_tailwind_theme` as a [dependency in your pubsp
 dependencies:
   flutter:
     sdk: flutter
-  flutter_tailwind_theme: ^1.0.1
+  flutter_tailwind_theme: ^1.0.2
 ```
 
 ## Usage

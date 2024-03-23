@@ -1,6 +1,6 @@
 name: flutter_tailwind_theme
 description: A Flutter package providing Tailwind-inspired classes.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/nimahedayati/flutter_tailwind_theme
 
 environment:

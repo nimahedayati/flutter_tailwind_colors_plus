@@ -15,36 +15,102 @@ dependencies:
 
 ## Usage
 
+### Colors
+
+- **Transparent:** `TColors.transparent`
+- **Black:** `TColors.black`
+- **White:** `TColors.white`
+- **Slate:** `TColors.slate`
+- **Gray:** `TColors.gray`
+- **Zinc:** `TColors.zinc`
+- **neutral:** `TColors.neutral`
+- **Stone:** `TColors.stone`
+- **Amber:** `TColors.amber`
+- **Yellow:** `TColors.yellow`
+- **Lime:** `TColors.lime`
+- **Green:** `TColors.green`
+- **Emerald:** `TColors.emerald`
+- **Teal:** `TColors.teal`
+- **Cyan:** `TColors.cyan`
+- **Sky:** `TColors.sky`
+- **Blue:** `TColors.blue`
+- **Indigo:** `TColors.indigo`
+- **Violet:** `TColors.violet`
+- **Purple:** `TColors.purple`
+- **Fuchsia:** `TColors.fuchsia`
+- **Pink:** `TColors.pink`
+- **Rose:** `TColors.rose`
+
 ```dart
-import 'package:flutter/material.dart';
-import 'package:flutter_tailwind_theme/flutter_tailwind_theme.dart';
-
-void main() {
-  runApp(MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('Flutter Tailwind Colors Demo'),
-        ),
-        body: Center(
-          child: Container(
-            color: TColors.blue.shade500, // Example usage of a Tailwind color
-            child: Text(
-              'Hello, Tailwind Colors!',
-              style: TextStyle(color: TColors.blue.shade50),
-            ),
-          ),
-        ),
-      ),
-    );
-  }
-}
+Text(
+  'Hello, Tailwind Colors!',
+  style: TextStyle(color: TColors.blue.shade50),
+)
 ```
+
+### Font Sizes
+
+- **Extra Small:** `TFontSize.xs`
+- **Small:** `TFontSize.sm`
+- **Base:** `TFontSize.base`
+- **Large:** `TFontSize.lg`
+- **Extra Large:** `TFontSize.xl`
+- **2XL:** `TFontSize.xl2`
+- **3XL:** `TFontSize.xl3`
+- **4XL:** `TFontSize.xl4`
+- **5XL:** `TFontSize.xl5`
+- **6XL:** `TFontSize.xl6`
+- **7XL:** `TFontSize.xl7`
+- **8XL:** `TFontSize.xl8`
+- **9XL:** `TFontSize.xl9`
+
+```dart
+Text(
+  'Hello, Tailwind Font Sizes!',
+  style: TextStyle(size: TFontSize.sm),
+)
+```
+
+
+### Font Weights
+
+- **Thin:** `TFontWeight.thin`
+- **Extra Light:** `TFontWeight.extralight`
+- **Light:** `TFontWeight.light`
+- **Normal:** `TFontWeight.normal`
+- **Medium:** `TFontWeight.medium`
+- **Semibold:** `TFontWeight.semibold`
+- **Bold:** `TFontWeight.bold`
+- **Extra Bold:** `TFontWeight.extrabold`
+- **Black:** `TFontWeight.black`
+
+```dart
+Text(
+  'Hello, Tailwind Font Weights!',
+  style: TextStyle(fontWeight: TFontWeight.medium),
+)
+```
+
+### Border Radius
+
+- **None:** `TBorderRadius.none`
+- **Small:** `TBorderRadius.sm`
+- **Normal:** `TBorderRadius.normal`
+- **Medium:** `TBorderRadius.md`
+- **Large:** `TBorderRadius.lg`
+- **Extra Large:** `TBorderRadius.xl`
+- **2XL:** `TBorderRadius.xl2`
+- **3XL:** `TBorderRadius.xl3`
+- **Full:** `TBorderRadius.full`
+
+```dart
+Container(
+  decoration: BoxDecoration(
+    borderRadius: TBorderRadius.md,
+  ),
+),
+```
+
 
 ## License
 

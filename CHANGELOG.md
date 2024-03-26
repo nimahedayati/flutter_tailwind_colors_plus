@@ -6,3 +6,6 @@
   
 ## 1.0.2
 * Provide simple documentation for package
+  
+## 1.0.3
+* Add tailwind shadows and sizes

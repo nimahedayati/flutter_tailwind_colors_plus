@@ -108,7 +108,27 @@ Container(
   decoration: BoxDecoration(
     borderRadius: TBorderRadius.md,
   ),
-),
+)
+```
+
+
+### Shadows
+
+- **None:** `TShadows.none`
+- **Small:** `TShadows.sm`
+- **Normal:** `TShadows.normal`
+- **Medium:** `TShadows.md`
+- **Large:** `TShadows.lg`
+- **Extra Large:** `TShadows.xl`
+- **2XL:** `TShadows.xl2`
+- **Inner:** `TShadows.inner`
+
+```dart
+Container(
+  decoration: BoxDecoration(
+    shadows: TShadows.md,
+  ),
+)
 ```
 
 

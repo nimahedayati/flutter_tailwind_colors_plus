@@ -1,6 +1,6 @@
 name: flutter_tailwind_theme
 description: A Flutter package providing a comprehensive set of pre-defined Tailwind colors, fonts, sizes and ... for rapid UI development.
-version: 1.0.2
+version: 1.0.3
 homepage: https://github.com/nimahedayati/flutter_tailwind_theme
 
 environment:

@@ -10,7 +10,7 @@ To use this package, add `flutter_tailwind_theme` as a [dependency in your pubsp
 dependencies:
   flutter:
     sdk: flutter
-  flutter_tailwind_theme: ^1.0.2
+  flutter_tailwind_theme: ^1.0.3
 ```
 
 ## Usage
